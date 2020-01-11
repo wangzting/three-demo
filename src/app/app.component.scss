@@ -1,0 +1,14 @@
+::ng-deep body {
+	margin: 0px;
+}
+.container {
+	display: flex;
+	height: 100vh;
+	&-button {
+		width: 300px;
+	}
+	&-canvas {
+		border: 1px solid grey;
+		flex: 1;
+	}
+}
